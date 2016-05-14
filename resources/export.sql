@@ -1,15 +1,15 @@
 -- export this into JSON
 
 SELECT
-	jumps.fromSolarSystemID,
-	ssFrom.solarSystemName AS fromSolarSystemName,
+    jumps.fromSolarSystemID,
+    ssFrom.solarSystemName AS fromSolarSystemName,
     jumps.toSolarSystemID,
     ssTo.solarSystemName AS toSolarSystemName,
     jumps.fromConstellationID,
     conFrom.constellationName AS fromConstellationName,
     jumps.toConstellationID,
     conTo.constellationName AS toConstellationName,
-	jumps.fromRegionID,
+    jumps.fromRegionID,
     regFrom.regionName AS fromRegionName,
     jumps.toRegionID,
     regTo.regionName AS toRegionName
